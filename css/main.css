@@ -247,54 +247,92 @@ a {
 .text-secondary {
   color: #eece1a; }
 
-/* 
- /* Extra small devices (phones, 600px and down)
+.text-primary {
+  color: #f7f7f7; }
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5rem; }
+
+.bio-image {
+  grid-area: bioimage;
+  margin: auto;
+  border: #eece1a 3px solid;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px; }
+
+.bio {
+  grid-area: bio;
+  font-size: 1.5rem; }
+  .bio > p.text-primary {
+    font-size: 1.2rem; }
+
+.job {
+  border-radius: 15%;
+  border-bottom: 2px solid #eece1a; }
+  .job .job-1 {
+    grid-area: job1; }
+  .job .job-2 {
+    grid-area: job2; }
+  .job .job-3 {
+    grid-area: job3; }
+  .job .skills {
+    display: grid;
+    grid: auto / 1fr 2fr 1fr;
+    color: #f7f7f7;
+    align-items: center;
+    text-transform: uppercase; }
+    .job .skills .progress-bar-html {
+      width: 90%;
+      height: 3px;
+      background-color: #eece1a; }
+    .job .skills #span1::before {
+      content: "90"; }
+    .job .skills .progress-bar-js {
+      width: 35%;
+      height: 3px;
+      background-color: #eece1a; }
+    .job .skills #span2::before {
+      content: "35"; }
+    .job .skills .progress-bar-css {
+      width: 85%;
+      height: 3px;
+      background-color: #eece1a; }
+    .job .skills #span3::before {
+      content: "85"; }
+    .job .skills .progress-bar-sass {
+      width: 35%;
+      height: 3px;
+      background-color: #eece1a; }
+    .job .skills #span4::before {
+      content: "35"; }
+    .job .skills .progress-bar-angular {
+      width: 25%;
+      height: 3px;
+      background-color: #eece1a; }
+    .job .skills #span5::before {
+      content: "25"; }
+
+footer, .job {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #eece1a;
+  text-align: center;
+  padding: 1rem; }
+  footer h3, .job h3 {
+    color: #eece1a; }
+  footer h6, .job h6 {
+    color: #f7f7f7;
+    font-weight: 400;
+    font-size: initial;
+    margin: .5rem 0; }
+  footer p, .job p {
+    color: #f7f7f7; }
+
 @media only screen and (max-width: 600px) {
-    div.menu-branding, div.menu-nav {
-        display: block;
-        float: none;
-        width: 100%;
-        text-align: center;
-        padding: 1rem 0.5rem;
-        }
-
-    .menu-branding {
-        float: none;
-        width: 100%;
-        transform: translate(0, 0);
-        transition: all 0.5s ease-in-out;
-
-        &.show {
-            height: 50%;
-            transform: translate(0, 0);
-        }
-
-        & div.portrait {
-            width: 100px;
-            height: 100px;
-            margin: auto;
-            background-size: contain;
-        }
-
-        h3 { 
-            font-size: smaller;
-            margin: .2rem .2rem;
-        }
-    }
-
-    .menu-nav {
-        height: 75vh;
-        justify-content: start;
-    }
-
-    .nav-item {
-        transform: translate(0, 0);
-        transition-delay: 0ms;
-        transition: all .0s ease-in-out;
-
-        &.show {
-            transform: translate(0, 0);
-            transition-delay: 0ms;
-        }
-    }
-} */
+  .about-info {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3'; } }
