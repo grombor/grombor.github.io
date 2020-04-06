@@ -261,6 +261,8 @@ a {
       color: #f7f7f7;
       align-items: center;
       text-transform: uppercase; }
+      .about-info .job .skills h6 {
+        margin-right: 5px; }
       .about-info .job .skills .progress-bar-html {
         width: 90%;
         height: 3px;
@@ -319,9 +321,6 @@ footer,
   footer p,
   .job p {
     color: #f7f7f7; }
-
-#footer {
-  margin-top: 2rem; }
 
 #my-work {
   margin: 0rem auto;
