@@ -1,0 +1,59 @@
+body {
+    background: #292b2c;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    width: 360px;
+    height: 100vh;
+    background: url(../img/login_creen_small.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+h2 {
+    font-size: 3em;
+    margin-top: 200px;
+    color: #0275d8;
+}
+input, .btn {
+    border: 1px solid #0275d8;
+    border-radius: 5px;
+    background: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-align: center;
+    color: #0275d8;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.btn {
+    color: #fff;
+    background: #0275d8;
+    padding: 10px 55px;
+    margin-bottom: 20px;
+}
+.btn:hover {
+    background: none;
+    color: #0275d8;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.small-link, .small-link:hover, .small-link:visited {
+    color: #0275d8;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+.small-link:hover {
+    background: none;
+    text-decoration: underline wavy;
+    transition: .6s ease-in-out;
+}

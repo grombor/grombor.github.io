@@ -270,11 +270,11 @@ a {
       .about-info .job .skills #span1::before {
         content: "90"; }
       .about-info .job .skills .progress-bar-js {
-        width: 40%;
+        width: 60%;
         height: 3px;
         background-color: #eece1a; }
       .about-info .job .skills #span2::before {
-        content: "40"; }
+        content: "60"; }
       .about-info .job .skills .progress-bar-css {
         width: 85%;
         height: 3px;
@@ -282,17 +282,17 @@ a {
       .about-info .job .skills #span3::before {
         content: "85"; }
       .about-info .job .skills .progress-bar-sass {
-        width: 50%;
+        width: 60%;
         height: 3px;
         background-color: #eece1a; }
       .about-info .job .skills #span4::before {
-        content: "50"; }
+        content: "60"; }
       .about-info .job .skills .progress-bar-angular {
-        width: 35%;
+        width: 45%;
         height: 3px;
         background-color: #eece1a; }
       .about-info .job .skills #span5::before {
-        content: "35"; }
+        content: "45"; }
 
 #job-1 {
   grid-area: job1; }

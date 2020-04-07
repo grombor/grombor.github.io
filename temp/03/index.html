@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kamil eportfolio</title>
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <!-- AngularJS Route-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <!-- My CSS-->
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" href="./src/img/fav.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Luckiest+Guy');
+    </style>
+</head>
+
+<body ng-app="myapp" ng-controller="myCtrl">
+    <div class="container bg-light">
+        <div id="bg">
+            <header>
+                <div class="row justify-content-center">
+                    <div class="col-sm text-center px-0">
+                        <header class="header">
+                                    <!-- Top Navbar-->
+        <nav>
+                <div class="row dgrey">
+                    <div class="col-sm  d-flex justify-content-between">
+                        <a ng-href="{{link_km}}" class="lg">
+                            <i class="fab fa-kickstarter mx-2 shadow_b"></i>
+                            <span class="shadow_b d-none d-md-inline-block">kmarchel.pl</span>
+                        </a>
+                        <span>
+                            <a ng-href="{{link_gh}}"><i class="fab fa-github shadow_b"></i></a>
+                            <a ng-href="{{link_fb}}"><i class="fab fa-facebook shadow_b"></i></a>
+                            <a ng-href="{{link_li}}"><i class="fab fa-linkedin shadow_b"></i></a>
+                            <a ng-href="{{link_tw}}"><i class="fab fa-twitter shadow_b"></i></a>
+                            <a ng-href="./view/loginform.htm" class="pl-4 shadow_b"><small><strong>Log In</strong></small></a>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+                            <div class="col-sm py-5">
+                                <h3 class="shadow_b lg">{{title}}</h3>
+                                <h5 class="comfort mb-0 shadow_b" style="color: #f28b2b;">
+                                    {{subtitle}}
+                                </h5>
+                            </div>
+                            <div class="col-sm cta"><a href="#article" class="btn btn-warning "><strong>Main Page</strong></a></div>
+                        </header>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <article id="article">
+            <div ng-view></div>
+        </article>
+        <footer>
+            <p class="text-muted pt-3 text-center">Proper handmade job! by KMarchel.pl @ 2018 AD</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="./js/my-app.js"></script>
+    <script src="./js/controllers/testCtrl.js"></script>
+    <script src="./js/controllers/projectsCtrl.js"></script>
+    <script src="./js/controllers/downloadCtrl.js"></script>
+    <script src="./js/controllers/mainCtrl.js"></script>
+</body>
+
+</html>

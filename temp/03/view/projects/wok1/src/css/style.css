@@ -1,0 +1,205 @@
+@font-face {
+    font-family: sevenSwords;
+    src: url(../fonts/SEVESBRG.TTF);
+    font-weight: bold;
+}
+
+body {
+    /* background-color: #36494e;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#292b2c+0,36494e+5,36494e+95,292b2c+100 */
+    background: #292b2c;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #292b2c 0%, #36494e 5%, #36494e 95%, #292b2c 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #292b2c 0%, #36494e 5%, #36494e 95%, #292b2c 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #292b2c 0%, #36494e 5%, #36494e 95%, #292b2c 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292b2c', endColorstr='#292b2c', GradientType=1);
+    /* IE6-9 */
+}
+
+.navbar {
+    /* background-color: #21445f; */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#36494e+0,21445f+10,21445f+90,36494e+100 */
+    background: #36494e;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #36494e 0%, #21445f 10%, #21445f 90%, #36494e 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #36494e 0%, #21445f 10%, #21445f 90%, #36494e 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #36494e 0%, #21445f 10%, #21445f 90%, #36494e 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36494e', endColorstr='#36494e', GradientType=1);
+    /* IE6-9 */
+    color: #eae2c5;
+}
+
+
+
+li>a {
+    line-height: 2rem;
+    color: #b5c2b7;
+    font-weight: bold;
+    transition-property: color;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in;
+    font-family: sevenSwords;
+    text-shadow: 2px 2px 1px #000;
+    /*transition-property: border-bottom;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;*/
+    border-bottom: 2px solid #21445f;
+}
+
+li > a:hover {
+    /*font-family: sevenSwords;
+    /*text-transform: uppercase;
+    /*font-size: 1rem;
+    /*letter-spacing: 5px;*/
+    color: #f1710c;
+    text-shadow: 2px 2px 1px #000;
+    /*transition: letter-spacing 0.3s; */
+    border-bottom: 2px solid #f1710c;
+}
+#brand {
+    color: #f1710c;
+    font-size: 2.5rem;
+    font-family: sevenSwords;
+    text-transform: uppercase;
+    transition: letter-spacing 0.3s ease-in-out;
+    text-shadow: 2px 2px 1px #000;
+    /*border-bottom: 2px solid #f1710c;*/
+}
+.fa-arrow-alt-circle-down {
+    color: #f1710c;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.container > .row {
+    /* background-color: #36494e;
+    color: #b5c2b7; */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#36494e+0,21445f+10,21445f+90,36494e+100 */
+    background: #36494e;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #36494e 0%, #21445f 10%, #21445f 90%, #36494e 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #36494e 0%, #21445f 10%, #21445f 90%, #36494e 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #36494e 0%, #21445f 10%, #21445f 90%, #36494e 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36494e', endColorstr='#36494e', GradientType=1);
+    /* IE6-9 */
+}
+
+.card {
+    min-width: 250px;
+    border: 0px;
+    box-shadow: 2px 3px 3px #000;
+}
+
+.card-header {
+    color: #21445f;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.card-title {
+    color: #21445f;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+}
+/*
+.card-text {
+    color: #36494e;
+}
+*/
+
+#border-right-gray {
+    border-right: 2px solid #36494e;
+    color: #eae2c5;
+}
+
+#border-top {
+    border-top: 4px solid #f1710c;
+}
+
+#border-bottom {
+    border-bottom: 4px solid #f1710c;
+}
+
+.orange {
+    color: #f1710c;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.carousel {
+    border: 2px solid #eae2c5;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: #f1710c;
+    color: black;
+    border: 1px solid #36494e;
+    box-shadow: 1px 2px 2px #000;
+    text-shadow: 0px 0px 1px #000;
+}
+i {
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+.myfooter {
+    /*background-color: #21445f;
+    color: #eae2c5;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#36494e+0,21445f+10,21445f+90,36494e+100
+    background: #36494e;
+    /* Old browsers
+    background: -moz-linear-gradient(left, #36494e 0%, #21445f 10%, #21445f 90%, #36494e 100%);
+    /* FF3.6-15
+    background: -webkit-linear-gradient(left, #36494e 0%, #21445f 10%, #21445f 90%, #36494e 100%);
+    /* Chrome10-25,Safari5.1-6 
+    background: linear-gradient(to right, #36494e 0%, #21445f 10%, #21445f 90%, #36494e 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36494e', endColorstr='#36494e', GradientType=1);
+    /* IE6-9 */
+    background-color: #292b2c;
+    color: #eae2c5;
+    border-radius: 10px;
+}
+
+#footer-li > li {
+    font-weight: 100;
+    color: #eae2c5;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.carousel {
+    box-shadow: 2px 3px 3px #000;
+}
+
+.carousel-item {
+    text-shadow: 1px 1px 1px #000;
+}
+
+.bg-map {
+    background-image: url(../img/map.png) /* rgba(255, 255, 255, 0.1)*/;
+    background-position: 20px 20px;
+    background-size:  70px;
+    background-repeat: no-repeat;
+}
+
+.bg-phone {
+    background-image: url(../img/phone.png) /* rgba(255, 255, 255, 0.1)*/;
+    background-position: 95% 0%;
+    background-size:  80px;
+    background-repeat: no-repeat;
+}
+.bg-blur {
+    background: rgba(255, 255, 255, 0.8);
+}

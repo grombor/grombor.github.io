@@ -1,0 +1,162 @@
+body {
+    background-color: black;
+    font-family: 'Comfortaa', cursive;
+}
+.dgrey {
+    background-color: rgba(0, 0, 0, 0.1);
+    line-height: 3rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e0e2db;
+    border-color: #7f7b82;
+}
+.dgrey a {
+    color: #f28b2b;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.dgrey a:hover {
+    color: #e0e2db;
+    text-decoration: none;
+}
+.dgrey i {
+    padding: 12px 5px;
+}
+#footer {
+    background-color: #172121;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0px;
+    line-height: 3rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e0e2db;
+}
+#footer a {
+    color: #f28b2b;
+    text-decoration: none;  
+}
+#footer a:hover {
+    margin: auto;
+    color: #e0e2db;
+    text-decoration: none;
+}
+.header {
+    background-color: #172121;
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    z-index: -2;
+    padding: 0px;
+    margin: auto;
+    padding-top: 0px;
+    color: #e0e2db;
+    font-weight: bold;
+    min-height: 100vh;
+}
+.cta {
+    position: absolute;
+    padding: 50px;
+    bottom: 25px;
+    z-index: 2;
+}
+h5 a {
+    color: #f28b2b;
+}
+h4 {
+    width: 100hw;
+    background-color: #172121;
+    color: #e0e2db;
+    padding: 3px 0px;
+    margin-bottom: 0px;
+}
+.list-group-item {
+    padding: 0px;
+    font-size: 12px;
+}
+.card {
+    border-color: #172121 !important;
+}
+.card-header {
+    background-color: #172121;
+    line-height: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e0e2db;
+}
+.card-title {
+    color: #172121;
+}
+p {
+    text-indent: 2rem;
+    font-family: 'Comfortaa', cursive;
+}
+#me {
+    background-image: url("../../view/main/me.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    height: 500px;
+}
+.navi-btn {
+    position: absolute;
+    bottom: 2vh;
+    left: 0px;
+    margin-top: 15px;
+    text-align: center;
+}
+.btn-dark {
+    color: #f28b2b !important;
+    border-color: #000 !important;
+    margin: 5px 5px;
+    background: #172121;
+    width: 85%;
+}
+.btn-warning {
+    color: #172121 !important;
+    background-color: #f28b2b !important;
+    border-color: #172121 !important;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 3px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 3px 0px rgba(50, 50, 50, 0.75);
+}
+.shadow_b {
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+}
+.card {
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 3px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 3px 0px rgba(50, 50, 50, 0.75);
+}
+.lobster {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+.lg {
+    font-family: 'Luckiest Guy', cursive;
+}
+#cards {
+    height: 600px;
+}
+.card-img-top {
+    padding: 0.2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+.card-img-top-icon {
+    padding: 0.2rem;
+    display: block;
+    width: 120px;
+    text-align: center;
+    align-self: center;
+}
+p {
+    font-size: 0.9rem;
+}
+.list-group-item {
+      font-size: 1.2rem;
+      padding: 5px;
+}

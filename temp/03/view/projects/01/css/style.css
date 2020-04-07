@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+p,
+blockquote {
+    font-size: .9em;
+    line-height: 1.65em;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+i {
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: .5em;
+    display: block;
+}
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+.cta {
+    text-transform: uppercase;
+}
+
+.gray-container {
+    width: 100%;
+    background: #6C757D;
+    color: #fff;
+    margin-top: 15%;
+    padding: 1.5em 0;
+    border-top-left-radius: 40px;
+    transform: skewY(-2deg)
+}
+
+.gray-container .container {
+    transform: skewY(2deg);
+}
+
+.gray-container:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #6C757D;
+    position: absolute;
+    top: -39px;
+    right: 0;
+    z-index: -2;
+}
+
+.gray-container:after {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: -80px;
+    right: 0;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.gray-container ul li {
+    margin: 2em 1em;
+}
+
+.gray-container ul li p {
+    margin-top: 0;
+}
+
+.logo {
+    width: 190px;
+    height: 50px;
+}
+
+.menu {
+    height: 50px;
+    /*width: 50px;*/
+    color: #6C757D;
+    margin: auto;
+    display: block;
+    padding-top: .5em;
+    font-size: 150%;
+}
+.menu:hover{
+    color: #000;
+    transition: .5s;
+}
+
+.srcoll {
+    height: 50px;
+    width: 50px;
+}
+#illustration {
+    width: 200px;
+    height: 200px;
+    max-width: 900px;
+    max-height: 900px;
+    margin: 2em auto;
+    border-radius: 25%;
+}
+
+h1,
+h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+.user-image {
+    width: 195px;
+    height: 195px;
+    margin: 0 0;
+    border-radius: 50%;
+}
+
+figcaption {
+    text-transform: capitalize;
+}
+
+#cta-container {
+    background-color: #fff;
+}
+
+.cta {
+    display: block;
+    font-weight: bold;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: #6C757D;
+    width: calc(100%-1em);
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    z-index: 4;
+    position: relative;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    width: 100%;
+    display: block;
+    width: 100%;
+    padding: 2em 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: -5%;
+    background: #6C757D;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-link li {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+}
+
+nav ul {
+    display: block;
+    position: fixed;
+    z-index: 5;
+    text-align: left;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    padding: 2em 0;
+    background-color: #6C757D;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 1.5em;
+}
+
+nav ul li a:hover {
+    background-color: rgb(57, 62, 66);
+    transition: .5s;
+}
+
+#exit-btn {
+    box-sizing: border-box;
+    padding: 1em 1.5em;
+    margin-top: -2em;
+    text-align: right;
+}
+
+#x {
+    padding-left: 1em;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.credits {
+    display: block;
+    font-size: .8em;
+    margin: 2em auto -1em;
+}
+
+@media only screen and (min-width: 750px) {
+    .gray-container, .container {
+        width: 85%;
+        margin: auto auto;
+    }
+    #illustration {
+        margin-top: 4em;
+        width: 50%;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+
+    .show-desktop {
+        display: flex;
+        width: auto;
+        height: auto;
+        position: relative;
+        background-color: inherit;
+        color: #6C757D;
+        padding: 0;
+    }
+
+    .show-desktop a {
+        color: inherit;
+        padding: 1em 1em;
+        display: flex;
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+
+    .show-desktop a:hover {
+
+        background-color: inherit;
+        color: rgb(57, 62, 66);
+        transition: .5s;
+    }
+
+    .scroll {
+        font-size: 200%;
+        display: block;
+        margin: 1em auto;
+        animation: move 2s infinite alternate;
+    }
+
+    .scroll:hover {
+        cursor: pointer;
+        color: #000;
+        transition: .7s;
+    }
+
+    .gray-container {
+        margin-top: 5%;
+    }
+
+    .container section ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        width: 40%;
+    }
+
+    .cta {
+        max-width: 400px;
+    }
+    .cta:hover {
+        max-width: 400px;
+        background-color: #000;
+        transition: .7s;
+    }
+
+    @keyframes move {
+        0% {
+            transform: translateY(0px);
+        }
+
+        100% {
+            transform: translateY(20px);
+        }
+    }
+}
