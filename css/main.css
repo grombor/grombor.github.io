@@ -70,7 +70,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/image_template.png);
+      background: url(../img/logo.png);
       border-radius: 50%;
       border: solid 3px #eece1a;
       background-position: center;
@@ -179,7 +179,7 @@ body {
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(18, 18, 18, 0.6);
+      background-color: rgba(18, 18, 18, 0.8);
       z-index: -1; }
 
 header {
