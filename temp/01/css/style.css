@@ -1,0 +1,177 @@
+html {
+  font-size: 1rem;
+}
+
+body {
+  background-color: black;
+}
+.container {
+  max-width: 1200px;
+  padding: 0;
+}
+.home {
+    max-height: 800px;
+    height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: black url("../images/background.jpg") no-repeat left top;
+}
+.navbar {
+  padding-left: 10vw;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.navbar-brand {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-right: 5rem;
+}
+.nav-link {
+  margin-left: 1rem;
+  margin-right: 1em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: blue;
+  text-decoration: none;
+}
+.text-brand {
+  text-shadow: 4px 2px 1px rgba(155,148,138,0.5);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+a.navbar:hover {
+  text-decoration: none;
+}
+.dropdown-menu {
+  background-color: rgba(155,148,138,0.5);
+}
+.navbar-text {
+  color: #fff;
+}
+h1 {
+  text-shadow: 4px 2px 1px rgba(155,148,138,0.5);
+  margin-bottom: 0px;
+}
+i {
+  padding-right: 1rem;
+}
+.jumbotron {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  margin-top: 1rem;
+  width: 75%;
+  color: #000;
+  background-color: rgba(255,255,255, 0.15);
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 10px black;
+}
+.jumbotron h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.btn {
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 1rem;
+  border-radius: 15px;
+  padding: 5px 25px;
+  background-color: darkslategray;
+  border: rosybrown;
+}
+.btn:hover {
+  background-color: rosybrown;
+}
+#address {
+  padding: 1rem 2rem;
+  line-height: 2.5rem;
+  height: 400px;
+}
+.carousel-caption {
+  color: black;
+}
+#home {
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.opacity {
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+footer {
+  width: inherit;
+  font-size: 0.9rem;
+  background-color: rgba(28, 32, 35, .95);
+  letter-spacing: 1px;
+}
+.footer {
+  font-size: 0.8rem;
+}
+
+#form-message {
+  height: 25;
+}
+
+@media (max-width: 575.98px) {
+  .text-brand {
+    margin-right: 0;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-right: 1rem;
+  }
+  .card {
+  text-align: center;
+  margin: auto auto;
+  }
+  .image {
+    display: none;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+  .jumbotron h1 {
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  .jumbotron {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .no-margin {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  hr {
+    display: none;
+  }
+  .nav-link {
+    margin-right: 0px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .card-header {
+    padding-left: 10px;
+    padding-top: 8px;
+  }
+}
