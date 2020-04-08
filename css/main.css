@@ -359,26 +359,40 @@ footer,
       color: #eece1a;
       transition: all 0.5s; }
 
-.boxes {
-  line-height: 1.5rem;
-  font-size: 1.2rem;
-  text-align: center;
-  padding-bottom: 3rem; }
-  .boxes > div {
-    display: block;
-    padding: .5rem 3rem; }
-
-#contact-icons {
-  color: #f7f7f7;
-  padding-top: 1rem;
-  transition: all 0.5s; }
-  #contact-icons a {
-    display: block;
-    margin-bottom: 1rem; }
-    #contact-icons a i {
-      margin-right: 10px;
-      font-size: 1em;
-      color: #eece1a; }
+.contact-info {
+  display: grid;
+  grid-gap: 30px;
+  padding: 3rem 0;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas: 'social contact'; }
+  .contact-info .contact-me {
+    grid-area: contact;
+    text-align: center;
+    padding: 1rem;
+    padding: .5rem 2.5rem; }
+    .contact-info .contact-me h4 {
+      margin-top: 0.25rem; }
+    .contact-info .contact-me h4:nth-child(3) {
+      margin-top: 3rem; }
+  .contact-info .social-media {
+    grid-area: social;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 3px solid #eece1a;
+    border-radius: 15%;
+    color: #262626;
+    padding: .5rem 2.5rem; }
+  .contact-info h4 {
+    color: #f7f7f7;
+    margin-top: 1.5rem;
+    font-size: 1.2rem; }
+  .contact-info a {
+    display: inherit;
+    margin: 1rem auto; }
+  .contact-info i {
+    color: #eece1a;
+    margin-right: 10px;
+    font-size: 1.2rem; }
 
 @media only screen and (max-width: 500px) {
   .menu-nav.show > ul {
@@ -388,6 +402,8 @@ footer,
   .portrait {
     padding: 0;
     margin-right: auto !important; }
+  #about {
+    padding: 3rem; }
   .about-info {
     margin-top: 1.5rem;
     grid-template-columns: 1fr;
@@ -411,12 +427,15 @@ footer,
   #my-work, #contact-me {
     padding-top: 0;
     margin: 0 auto 1.5rem; }
-  #contact-me {
-    margin-top: 2rem; }
-  footer {
-    margin: 0 -4rem 0; }
-  .boxes div {
-    padding: 0; } }
+  .contact-info {
+    padding-top: 1rem;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: 'contact' 'social'; }
+    .contact-info h4 {
+      font-size: 1rem; }
+    .contact-info a {
+      font-size: 0.9rem; } }
 
 @media only screen and (min-width: 501px) and (max-width: 768px) {
   .about-info {
@@ -424,30 +443,3 @@ footer,
     grid-template-areas: 'bioimage bio' 'job1 job1' 'job2 job3'; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
-
-/* media Query mixins 
-
-@mixin mediaSm {
-    @media only screen and (max-width: 500px) {
-        @content;
-    }
-}
-
-@mixin mediaMd {
-    @media screen and (max-width: 768px) {
-        @content;
-    }
-}
-
-@mixin mediaLg {
-    @media screen and (min-width: 769px) and (max-width: 1199px) {
-        @content;
-    }
-}
-
-@mixin mediaXl {
-    @media screen and (min-width: 1200px) {
-        @content;
-    }
-}
-*/
