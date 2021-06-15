@@ -328,7 +328,7 @@ header {
 
 main {
   padding: 4rem;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 main .icons {

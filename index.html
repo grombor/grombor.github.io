@@ -5,6 +5,9 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="kamil marchel, portfolio">
+  <meta name="description" content="Kamil Marchel ]|[ Online Portfolio">
+  <meta name="theme-color" content="#000000">
 
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/c1246e0d6d.js" crossorigin="anonymous"></script>
@@ -29,9 +32,9 @@
         <div class="menu-nav">
           <ul>
             <li class="nav-item"><a href="./index.html" class="nav-link current">Home</a></li>
-            <li class="nav-item"><a href="./aboutme.html" class="nav-link">About me</a></li>
-            <li class="nav-item"><a href="./projects.html" class="nav-link">See my Projects</a></li>
-            <li class="nav-item"><a href="./contact.html" class="nav-link">How to reach me</a></li>
+            <li class="nav-item"><a href="#aboutme" class="nav-link" id="aboutmeLink">About me</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link" id="projectLink">See my Projects</a></li>
+            <li class="nav-item"><a href="#contactme" class="nav-link" id="contactLink">How to reach me</a></li>
             <li class="nav-item"><a href="https://przyjacieliwrog.bluserwer.pl/" class="nav-link">Blog</a></li>
           </ul>
         </div>
@@ -39,18 +42,138 @@
     </nav>
   </header>
   <main id="home">
-    <h1 class="lg-heading" id="main-header">Portfolio<br><span class="text-secondary">|&nbsp;Kamil Marchel</span></h1>
-    <h2 class="sm-heading">Hobbyist Web-Developer & bloger</h2>
-    <div class="icons">
+    <h1 class="lg-heading" id="main-header">Hello,<br><span class="text-secondary">|&nbsp;am Kamil Marchel</span></h1>
+    <h2 class="sm-heading">Hobbyist Web-Developer. Open to work. Lets create awesome projects together!
+    </h2>
+    <a href="#aboutme">About me<i class="fa fa-angle-double-down fa-4x animated bounce infinite" aria-hidden="true"></i></a>
+    <div class="icons"><p class="text-primary">Contact me:</p>
       <a href="https://github.com/grombor/"><i class="fab fa-github-square fa-2x"></i></a>
-      <a href="https://www.facebook.com/esmeregilda.kaczmarska"><i
-        class="fab fa-facebook-square fa-2x"></i></a>
+      <!-- <a href="https://www.facebook.com/esmeregilda.kaczmarska"><i
+        class="fab fa-facebook-square fa-2x"></i></a> -->
         <a href="https://www.linkedin.com/in/kamil-marchel-82926313b/"><i class="fab fa-linkedin fa-2x"></i></a>
       <a href="https://twitter.com/jangrombor"><i class="fab fa-twitter-square fa-2x"></i></a>
       <a href="https://przyjacieliwrog.bluserwer.pl/"><i class="fas fa-blog fa-2x"></i></i></a>
     </div>
   </main>
+  <main id="aboutme">
+    <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
+    <div class="about-info">
+      <img src="./img/author.jpg" alt="My photo" class="bio-image">
+      <div class="bio">
+        <h3 class="text-secondary">| about me</h3>
+        <p class="text-primary">
+          I like following my passion of coding. I like minimalism too. My goal is to create a clean, fast and responsive designs. Simple and functional, OK with UX.</p>
+<p class="text-primary">I love dark themes, fast webpages, craft beer and spending time with family.</p>
+<p class="text-primary">You know what... if you are nice, I will take care of existing web sites or help with new ones.</p>
+      </div>
 
+<section>
+	<div class="bio" id="skills"><h3 class="text-secondary rotated">Skills</h3>
+        	<p class="text-primary ">
+         	 .rotated {
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+    }
+        	</p>
+		<p>html, css, js, php, java, ts, photoshop</p>
+	</div>
+	<div class="bio" id="tools"><h3 class="text-secondary rotated">Tools</h3>
+        	<p class="text-primary">
+         	 https://kottenator.github.io/jquery-circle-progress/
+        	</p>
+		<p class="text-primary">
+         	 selenium, sass, bootstrap, wordpress, jq, angular
+        	</p>		
+		<p class="text-primary">
+         	 #main-header{
+		margin-top: 50vh;
+		/* mobile 40vh */
+		}
+wyjebac button
+zmienic obraz tla + optymalizowac rozmiar
+html {
+  scroll-behavior: smooth;
+} parallax scroll at about me https://www.w3schools.com/howto/howto_css_parallax.asp
+        	</p>
+	</div>
+</section>
+
+  </main>
+  <main id="projects">
+    <section id="mywork">
+      <h1 class="lg-heading" id="my-work">My <span class="text-secondary">work</span></h1>
+      <div class="projects">
+        <div class="item">
+          <a href="https://grombor.github.io/kazik/">
+            <img src="./img/kazik_thumb.png" alt="project1" class="item-image">
+          </a>
+          <div class="btn-dark">
+            <a href="https://grombor.github.io/kazik/">
+              <i class="far fa-eye"></i>Live demo
+            </a>
+            <a href="https://github.com/grombor/kazik">
+              <i class="fab fa-github"></i>Git Hub
+            </a>
+          </div>
+        </div>
+        <div class="item">
+          <a href="./temp/01/index.html">
+            <img src="./temp/01/thumbnail.png" alt="project1" class="item-image">
+          </a>
+          <div class="btn-dark">
+            <a href="./temp/01/index.html">
+              <i class="far fa-eye"></i>Live demo
+            </a>
+            <a href="https://github.com/grombor/grombor.github.io/tree/master/temp/01">
+              <i class="fab fa-github"></i>Git Hub
+            </a>
+          </div>
+        </div>
+        <div class="item">
+          <a href="./temp/02/index.html">
+            <img src="./temp/02/thumbnail.png" alt="project1" class="item-image">
+          </a>
+          <div class="btn-dark">
+            <a href="./temp/02/index.html">
+              <i class="far fa-eye"></i>Live demo
+            </a>
+            <a href="https://github.com/grombor/grombor.github.io/tree/master/temp/02">
+              <i class="fab fa-github"></i>Git Hub
+            </a>
+          </div>
+        </div>
+        <div class="item">
+          <a href="./temp/03/index.html">
+            <img src="./temp/03/thumbnail.png" alt="project1" class="item-image">
+          </a>
+          <div class="btn-dark">
+            <a href="./temp/03/index.html">
+              <i class="far fa-eye"></i>Live demo
+            </a>
+            <a href="https://github.com/grombor/grombor.github.io/tree/master/temp/03">
+              <i class="fab fa-github"></i>Git Hub
+            </a>
+          </div>
+        </div>
+    </section>
+  </main>
+  <main id="contactme">
+    <section id="contact" class="my-5">
+      <h1 class="lg-heading" id="contact-me">How to reach <span class="text-secondary">me</span>
+      </h1>
+      <div class="contact-info">
+        <div class="contact-me">
+          <h4>Get my Resume</h4>
+          <a href="#"><i class="fab fa-github-square"></i>Resume</a>
+          <h4>Visit my repository</h4>
+          <a href="https://github.com/grombor/"><i class="fab fa-github-square"></i>GitHub</a>
+          <br>
+          <h4>Send me a msg</h4>
+          <a href="mailto:doparteru@gmail.com"><i class="fas fa-envelope-square"></i>doparter@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
   <!-- Optional JavaScript -->
   <script src="./js/main.js"></script>
 </body>

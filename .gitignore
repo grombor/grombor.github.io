@@ -1,0 +1,4 @@
+# ignore all files in any directory named sass
+sass/
+# ignore all .scss files
+*.scss
