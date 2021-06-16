@@ -2,3 +2,4 @@
 sass/
 # ignore all .scss files
 *.scss
+css/*.map

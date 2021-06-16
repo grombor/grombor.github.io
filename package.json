@@ -1,0 +1,28 @@
+{
+  "name": "grombor.github.io",
+  "version": "1.0.0",
+  "description": "Singlel page online portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch sass/style.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grombor/grombor.github.io.git"
+  },
+  "keywords": [
+    "single-page"
+  ],
+  "author": "KM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grombor/grombor.github.io/issues"
+  },
+  "homepage": "https://github.com/grombor/grombor.github.io#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.1",
+    "sass": "^1.35.1"
+  }
+}
