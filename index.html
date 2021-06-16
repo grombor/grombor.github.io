@@ -9,12 +9,15 @@
   <meta name="description" content="Kamil Marchel ]|[ Online Portfolio">
   <meta name="theme-color" content="#000000">
 
+    <!-- Bootstrap .css file -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/c1246e0d6d.js" crossorigin="anonymous"></script>
   <!-- Custom .css file -->
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/style.css">
 
-  <title>Welcome in my Portfolio</title>
+
+  <title>Kamil marchel x Portfolio</title>
 </head>
 
 <body id="bg-img">
@@ -45,11 +48,10 @@
     <h1 class="lg-heading" id="main-header">Hello,<br><span class="text-secondary">|&nbsp;am Kamil Marchel</span></h1>
     <h2 class="sm-heading">Hobbyist Web-Developer. Open to work. Lets create awesome projects together!
     </h2>
-    <a href="#aboutme">About me<i class="fa fa-angle-double-down fa-4x animated bounce infinite" aria-hidden="true"></i></a>
-    <div class="icons"><p class="text-primary">Contact me:</p>
+    <div class="icons">
       <a href="https://github.com/grombor/"><i class="fab fa-github-square fa-2x"></i></a>
-      <!-- <a href="https://www.facebook.com/esmeregilda.kaczmarska"><i
-        class="fab fa-facebook-square fa-2x"></i></a> -->
+      <a href="https://www.facebook.com/esmeregilda.kaczmarska"><i
+        class="fab fa-facebook-square fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/kamil-marchel-82926313b/"><i class="fab fa-linkedin fa-2x"></i></a>
       <a href="https://twitter.com/jangrombor"><i class="fab fa-twitter-square fa-2x"></i></a>
       <a href="https://przyjacieliwrog.bluserwer.pl/"><i class="fas fa-blog fa-2x"></i></i></a>
@@ -62,20 +64,17 @@
       <div class="bio">
         <h3 class="text-secondary">| about me</h3>
         <p class="text-primary">
-          I like following my passion of coding. I like minimalism too. My goal is to create a clean, fast and responsive designs. Simple and functional, OK with UX.</p>
+          I like following my passion of coding.</p>
 <p class="text-primary">I love dark themes, fast webpages, craft beer and spending time with family.</p>
 <p class="text-primary">You know what... if you are nice, I will take care of existing web sites or help with new ones.</p>
       </div>
 
 <section>
-	<div class="bio" id="skills"><h3 class="text-secondary rotated">Skills</h3>
-        	<p class="text-primary ">
-         	 .rotated {
-        writing-mode: tb-rl;
-        transform: rotate(-180deg);
-    }
+	<div class="bio rotated" id="skills"><h3 class="text-secondary rotated">Skills</h3>
+        	<p class="text-primary">
+         	 Lorem
         	</p>
-		<p>html, css, js, php, java, ts, photoshop</p>
+		<p class="text-primary">html, css, js, php, java, ts, photoshop</p>
 	</div>
 	<div class="bio" id="tools"><h3 class="text-secondary rotated">Tools</h3>
         	<p class="text-primary">
@@ -89,11 +88,7 @@
 		margin-top: 50vh;
 		/* mobile 40vh */
 		}
-wyjebac button
 zmienic obraz tla + optymalizowac rozmiar
-html {
-  scroll-behavior: smooth;
-} parallax scroll at about me https://www.w3schools.com/howto/howto_css_parallax.asp
         	</p>
 	</div>
 </section>
@@ -103,58 +98,71 @@ html {
     <section id="mywork">
       <h1 class="lg-heading" id="my-work">My <span class="text-secondary">work</span></h1>
       <div class="projects">
-        <div class="item">
-          <a href="https://grombor.github.io/kazik/">
-            <img src="./img/kazik_thumb.png" alt="project1" class="item-image">
-          </a>
-          <div class="btn-dark">
-            <a href="https://grombor.github.io/kazik/">
-              <i class="far fa-eye"></i>Live demo
-            </a>
-            <a href="https://github.com/grombor/kazik">
-              <i class="fab fa-github"></i>Git Hub
-            </a>
+        <div class="container">
+          <div class="row">
+            <div class="col col-xs-12 col-sm-12 col-md-6">
+              <div class="item">
+              <a href="https://grombor.github.io/kazik/">
+                <img src="./img/kazik_thumb.png" alt="project1" class="item-image">
+              </a>
+              <div class="btn-dark">
+                <a href="https://grombor.github.io/kazik/">
+                  <i class="far fa-eye"></i>Live demo
+                </a>
+                <a href="https://github.com/grombor/kazik">
+                  <i class="fab fa-github"></i>Git Hub
+                </a>
+              </div>
+              </div>
+            </div>
+            <div class="col col-xs-12 col-sm-12 col-md-6">
+              <div class="item">
+                <a href="./temp/01/index.html">
+                  <img src="./temp/01/thumbnail.png" alt="project1" class="item-image">
+                </a>
+                <div class="btn-dark">
+                  <a href="./temp/01/index.html">
+                    <i class="far fa-eye"></i>Live demo
+                  </a>
+                  <a href="https://github.com/grombor/grombor.github.io/tree/master/temp/01">
+                    <i class="fab fa-github"></i>Git Hub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-xs-12 col-sm-12 col-md-6">
+              <div class="item">
+                <a href="./temp/02/index.html">
+                  <img src="./temp/02/thumbnail.png" alt="project1" class="item-image">
+                </a>
+                <div class="btn-dark">
+                  <a href="./temp/02/index.html">
+                    <i class="far fa-eye"></i>Live demo
+                  </a>
+                  <a href="https://github.com/grombor/grombor.github.io/tree/master/temp/02">
+                    <i class="fab fa-github"></i>Git Hub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-xs-12 col-sm-12 col-md-6">
+              <div class="item">
+                <a href="./temp/03/index.html">
+                  <img src="./temp/03/thumbnail.png" alt="project1" class="item-image">
+                </a>
+                <div class="btn-dark">
+                  <a href="./temp/03/index.html">
+                    <i class="far fa-eye"></i>Live demo
+                  </a>
+                  <a href="https://github.com/grombor/grombor.github.io/tree/master/temp/03">
+                    <i class="fab fa-github"></i>Git Hub
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="item">
-          <a href="./temp/01/index.html">
-            <img src="./temp/01/thumbnail.png" alt="project1" class="item-image">
-          </a>
-          <div class="btn-dark">
-            <a href="./temp/01/index.html">
-              <i class="far fa-eye"></i>Live demo
-            </a>
-            <a href="https://github.com/grombor/grombor.github.io/tree/master/temp/01">
-              <i class="fab fa-github"></i>Git Hub
-            </a>
-          </div>
-        </div>
-        <div class="item">
-          <a href="./temp/02/index.html">
-            <img src="./temp/02/thumbnail.png" alt="project1" class="item-image">
-          </a>
-          <div class="btn-dark">
-            <a href="./temp/02/index.html">
-              <i class="far fa-eye"></i>Live demo
-            </a>
-            <a href="https://github.com/grombor/grombor.github.io/tree/master/temp/02">
-              <i class="fab fa-github"></i>Git Hub
-            </a>
-          </div>
-        </div>
-        <div class="item">
-          <a href="./temp/03/index.html">
-            <img src="./temp/03/thumbnail.png" alt="project1" class="item-image">
-          </a>
-          <div class="btn-dark">
-            <a href="./temp/03/index.html">
-              <i class="far fa-eye"></i>Live demo
-            </a>
-            <a href="https://github.com/grombor/grombor.github.io/tree/master/temp/03">
-              <i class="fab fa-github"></i>Git Hub
-            </a>
-          </div>
-        </div>
+
     </section>
   </main>
   <main id="contactme">
@@ -164,7 +172,7 @@ html {
       <div class="contact-info">
         <div class="contact-me">
           <h4>Get my Resume</h4>
-          <a href="#"><i class="fab fa-github-square"></i>Resume</a>
+          <a href="#"><i class="far fa-file-pdf"></i>Resume</a>
           <h4>Visit my repository</h4>
           <a href="https://github.com/grombor/"><i class="fab fa-github-square"></i>GitHub</a>
           <br>

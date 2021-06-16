@@ -21,8 +21,6 @@
   },
   "homepage": "https://github.com/grombor/grombor.github.io#readme",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
-    "bootstrap": "^5.0.1",
     "sass": "^1.35.1"
   }
 }
