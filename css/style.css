@@ -362,7 +362,7 @@ main .icons a:hover {
 }
 
 main#home {
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -394,7 +394,7 @@ h3.sm-heading {
 }
 
 #main-header {
-  margin-top: 100px;
+  margin-top: 40vh;
   margin-bottom: 50px;
 }
 
@@ -543,6 +543,7 @@ footer p,
 }
 
 .projects {
+  max-width: 900px;
   margin-top: 1rem;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -705,14 +706,12 @@ footer p,
   }
   #home {
     padding: 3rem;
+min-height: 100vh;
   }
-  #home #main-header {
-    margin-bottom: 2rem;
-  }
-  #home #main-header span {
-    content: 'Kamil Marchel';
-    font-size: 1.4rem;
-  }
+#main-header {
+    margin-top: 35vh;
+    margin-bottom: 50px;
+}
   #home h2 {
     font-size: 1rem;
   }
@@ -722,6 +721,44 @@ footer p,
   h3 {
     visibility: visible;
   }
+}
+
+.item-skill>img{
+	height: 100px;
+	width: auto;
+}
+
+#aboutme {
+	background-image: none;
+
+}
+
+#aboutme {
+
+background-image: url(./../img/background2.png);
+min-height: 100vh;
+}
+
+#brand {
+	width:150px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+#my-work, #contact-me, #about-me {
+	margin: 3.5rem auto;
+}
+
+.rotated {
+  transform: rotate(-90deg);
+  display: inline-block;
+  margin-bottom: 2rem;	
+  margin-top: -1rem;
+}
+
+#about-info {
+  margin: 5rem auto;
 }
 
 @media only screen and (min-width: 501px) and (max-width: 768px) {
@@ -779,13 +816,13 @@ flex-wrap: wrap;
   width: auto;
 }
 
-  
+<!--  
 #aboutme {
-  background-image: url('./../img/background2.jpg');
+  background-image: url('./../img/background2.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: -100px;
-}
+  background-size: contain;
+  background-position-x: 0px;
+} -->
 
 .d-inline {
   display: inline-block;
@@ -854,6 +891,7 @@ flex-wrap: wrap;
 
   #home {
     padding: 3rem;
+    height: 100vh;
   }
 
   #home #main-header {
@@ -881,6 +919,15 @@ flex-wrap: wrap;
   #short-bio {
     max-width: 100%;
   }
+#aboutme {
+background-image: url(./../img/background2.png);
+background-size: auto;
+background-position: top;
+}
+.item-skill>img{
+	height: 70px;
+	width: auto;
+}
 }
 @media only screen and (min-width: 501px) and (max-width: 768px) {
   .about-info {
@@ -891,5 +938,14 @@ flex-wrap: wrap;
   #short-bio {
     max-width: 100%;
   }
+#aboutme {
+background-image: url(./../img/background2.png);
+max-height: 100vh;
+background-size: auto;
+background-position: top;
 }
+}
+
+
+
 /*# sourceMappingURL=style.css.map */
