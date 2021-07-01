@@ -493,24 +493,6 @@ a {
   content: "45";
 }
 
-#job-1 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: job1;
-}
-
-#job-2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: job2;
-}
-
-#job-3 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: job3;
-}
-
 footer,
 .job {
   background-color: rgba(0, 0, 0, 0.6);
@@ -612,9 +594,6 @@ footer p,
 }
 
 .contact-info .contact-me {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: contact;
   text-align: center;
   padding: 1rem;
   /* padding: 0.5rem 2.5rem; */
@@ -629,9 +608,6 @@ footer p,
 }
 
 .contact-info .social-media {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: social;
   background-color: rgba(0, 0, 0, 0.45);
   border: 3px solid #eece1a;
   border-radius: 15%;
